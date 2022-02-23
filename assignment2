@@ -1,0 +1,24 @@
+#to print the reverse elements of the list
+l=[]
+n=int(input('enter n:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print('the reverse list elements are:')    
+for i in range(n,0,-1):
+    print(l[i-1])
+'''
+output:
+enter n:5
+12
+58
+34
+2
+4
+the reverse list elements are:
+4
+2
+34
+58
+12
+'''
